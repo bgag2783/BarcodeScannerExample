@@ -22,6 +22,7 @@ var LISTEXP = JSON.parse(localStorage.getItem('expStore')) || [];
 var app = {
     // Application Constructor
     initialize: function() {
+        alert("This app has been updated");
         document.getElementById("localStorageSection").innerHTML = LISTEXP;
         this.bindEvents();
     },
